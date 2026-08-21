@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="syles.css">
+</head>
+
+<body>
+
+    <main class="registration-container">
+
+        <section class="registration-card">
+
+            <header>
+                <h1 class="form-title">Student Form</h1>
+            </header>
+
+            <form action="#" method="post" id="student-form">
+                <fieldset class="form-fieldset">
+                    <legend class="fieldset-title">Personal Information</legend>
+
+                    <div class="form-field">
+                        <label for="student-name">Name<span class="required-input"></span></label>
+                        <input class="student-field" type="text" name="student-name" id="student-name"
+                            placeholder="Your name" autocomplete="name" required>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="student-email">Email</label>
+                        <input class="student-field" type="email" name="student-email" id="student-email"
+                            placeholder="Your email" autocomplete="email">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="student-id">Identification Number <span class="required-input"></span></label>
+                        <input class="student-field" type="text" name="student-id" id="student-id" required
+                            placeholder="Your identification number" inputmode="numeric" pattern="[1-7][0-9]{8}"
+                            title="The ID must start with a number between 1 and 7 and must have 9 digits">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="student-age">Age <span class="required-input"></span></label>
+                        <input class="student-field" type="number" name="student-age" id="student-age" required
+                            placeholder="Your age" inputmode="numeric" min="15" max="100">
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                    <legend class="fieldset-title">Academic Information</legend>
+
+                    <div class="form-field">
+                        <label for="student-career">Career<span class="required-input"></span></label>
+
+                        <select name="student-career" id="student-career" required class="student-field">
+                            <option value="Enterprise Computing" selected>Enterprise Computing</option>
+                            <option value="Architecture">Architecture</option>
+                            <option value="Electrical Engineering">Electrical Engineering</option>
+                            <option value="Economics">Economics</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <div class="form-actions">
+                    <button type="submit" class="submit-button">Register</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

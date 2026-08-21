@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <main class="students-container">
+
+        <header class="main-header">
+            <div class="header-actions">
+                <h1>Students</h1>
+                <a href="./student-form.html" class="btn btn-primary">New Student</a>
+            </div>
+
+            <form role="search" class="search-form" id="search-form">
+                <label for="search-bar">Search</label>
+                <input type="text" name="search-bar" id="search-bar" placeholder="Search by name...">
+            </form>
+
+            <div class="student-counter">
+                Students Amount: <span id="student-counter">0</span>
+            </div>
+        </header>
+
+
+
+        <div class="table-container">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Career</th>
+                        <th scope="col" class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="student-list">
+
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

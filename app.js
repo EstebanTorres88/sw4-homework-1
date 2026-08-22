@@ -46,7 +46,7 @@ const registerStudent = () => {
         const emailInput = document.getElementById("student-email")
         const idInput = document.getElementById("student-id")
         const ageInput = document.getElementById("student-age")
-        const careerInput = document.getElementById("student-career")
+        const programInput = document.getElementById("student-program")
 
 
 
@@ -55,7 +55,7 @@ const registerStudent = () => {
             email: emailInput.value.trim(),
             id: idInput.value.trim(),
             age: ageInput.value,
-            career: careerInput.value
+            program: programInput.value
 
         }
 
@@ -102,14 +102,14 @@ const displayStudents = () => {
         const idField = document.createElement("td")
         idField.textContent = student.id
 
-        const careerField = document.createElement("td")
-        careerField.textContent = student.career
+        const programField = document.createElement("td")
+        programField.textContent = student.program
 
 
         const ageField = document.createElement("td")
         ageField.textContent = student.age
 
-        const acctionsField = document.createElement("td")
+        const actionsField = document.createElement("td")
 
         const deleteBtn = document.createElement("button")
         deleteBtn.type = "button"
@@ -120,13 +120,13 @@ const displayStudents = () => {
         })
 
 
-        acctionsField.appendChild(deleteBtn)
+        actionsField.appendChild(deleteBtn)
         trow.appendChild(idField)
         trow.appendChild(nameField)
         trow.appendChild(emailField)
         trow.appendChild(ageField)
-        trow.appendChild(careerField)
-        trow.appendChild(acctionsField)
+        trow.appendChild(programField)
+        trow.appendChild(actionsField)
         studentList.appendChild(trow)
 
 

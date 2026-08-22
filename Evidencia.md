@@ -1,37 +1,50 @@
 # Evidencia de resultados
 
 1. Se comprueba la correcta funcionalidad de la verificación del número de identificación, se digita un número ya existente y se rechaza el registro del nuevo estudiante
-![Screenshot From 2026-08-20 20-28-27.png](:/6eb5de8647034d9197389194811d3603)
+
+
+<img width="1071" height="849" alt="image" src="https://github.com/user-attachments/assets/239edec4-d6cd-4665-afa4-0366111ea66a" />
 
 
 
 2. En esta prueba, se digita una identificación única y se comprueba el mensaje de éxito, confirmando que el estudiante se ha registrado correctamente y por ende se ha almacenado en el localStorage
 
 
-![Screenshot From 2026-08-20 20-31-32.png](:/a7917371035f4578a7a56a498d1e6764)
+<img width="1375" height="1091" alt="image" src="https://github.com/user-attachments/assets/adc511b2-062a-4e0d-b6be-c7a51d731b35" />
+
 
    
-4. Se ingresa a las herramientas de desarrollo para revisar los datos almacenados en el localStorage, efectivamente se puede observar como está almacenado tanto la clave como el arreglo en formato de texto en la memoria del navegador.
+3. Se ingresa a las herramientas de desarrollo para revisar los datos almacenados en el localStorage, efectivamente se puede observar como está almacenado tanto la clave como el arreglo en formato de texto en la memoria del navegador.
 
 
-![Screenshot From 20git26-08-20 20-54-07.png](:/49fac4cb6b154488b664ecfa00e89e37)
+<img width="1115" height="1073" alt="image" src="https://github.com/user-attachments/assets/1e060646-5f0c-4a29-91a1-62650756c7a8" />
 
 
 
-5. Se verifica los registros almacenados en la tabla de estudiantes y se procede a eliminar el estudiante con ID `502520323`[cite: 5].
-![Screenshot From 2026-08-20 20-52-52.png](:/0c6ed92815f34808ade2dbd905b315f0)
 
 
-6. Al eliminar el registro se verifica la tabla y además se comprueba la actualización del contador de estudiantes
 
-![Screenshot From 2026-08-20 20-32-37.png](:/773ea3adcec84303a8ed40d0a92e50fe)
+4. Se verifica los registros almacenados en la tabla de estudiantes y se procede a eliminar el estudiante con ID `502520323`.
+
+   <img width="1194" height="907" alt="image" src="https://github.com/user-attachments/assets/925ffde1-ad38-4970-a594-ff811a66cb8f" />
 
 
-7. Se corrobora la eliminación volviendo a comprobar los datos almacenados en el localStorage para confirmar que el registro fue borrado
-![Screenshot From 2026-08-20 20-57-21.png](:/0ed7d1e504324523bd12c06fe54079c2)
 
-8. Se realiza la búsqueda por ID
-![Screenshot From 2026-08-20 21-03-15.png](:/88a1e1ee370f4ff5903e4b56117a49a7)
 
-9. Se realiza la búsqueda por nombre
-![Screenshot From 2026-08-20 21-05-09.png](:/f4b1a8f14c664d5cbd0a0f9d062108fa)
+
+5. Al eliminar el registro se verifica la tabla y además se comprueba la actualización del contador de estudiantes
+
+<img width="1363" height="1085" alt="image" src="https://github.com/user-attachments/assets/fe6c2ceb-1daf-46fe-b5c3-8cdf1ab042bd" />
+
+
+
+6. Se corrobora la eliminación volviendo a comprobar los datos almacenados en el localStorage para confirmar que el registro fue borrado
+<img width="1114" height="1048" alt="image" src="https://github.com/user-attachments/assets/f75bfb5b-45e0-43f5-bb63-da61305ee1b7" />
+
+
+7. Se realiza la búsqueda por ID
+<img width="1531" height="414" alt="image" src="https://github.com/user-attachments/assets/edcbaa4e-855a-4019-9b9e-8d61a4d1b274" />
+
+
+8. Se realiza la búsqueda por nombre
+<img width="1527" height="412" alt="image" src="https://github.com/user-attachments/assets/07a1c614-2c45-45fb-8dfd-78c6f295174d" />

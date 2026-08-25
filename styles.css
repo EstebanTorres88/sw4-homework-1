@@ -51,7 +51,6 @@ body {
 
 .registration-container {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +124,6 @@ body {
     border-radius: var(--radius-sm);
     background-color: var(--color-surface);
     color: var(--color-text);
-    font: inherit;
     transition:
         border-color var(--transition-fast),
         box-shadow var(--transition-fast);
